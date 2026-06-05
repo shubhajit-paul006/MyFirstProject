@@ -21,6 +21,7 @@ public class MatrixRowColSum {
         System.out.println("Sum of 1st Column: " + colsum(matrix, 0));
         System.out.println("Sum of 2nd Column: " + colsum(matrix, 1));
         System.out.println("Sum of 3rd Column: " + colsum(matrix, 2));
+        sc.close();
     }
 
     public static int rowsum(int[][] matrix, int row){
