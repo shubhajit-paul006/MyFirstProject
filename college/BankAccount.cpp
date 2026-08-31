@@ -19,7 +19,7 @@ class BankAccount{
 void BankAccount::Input(){
 	cout<<"Enter your Bank account number: ";
 	cin>>account_number;
-	cin.ignore();
+	//cin.ignore();
 	cout<<"Enter your name: ";
 	getline(cin, name);
 	balance = 1000.0;
