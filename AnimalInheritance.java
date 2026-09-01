@@ -6,10 +6,8 @@
 // In the Animal class, create a method makeSound(). Override this method in both the Dog and Puppy
 // classes to produce different sounds. Demonstrate how method overriding works.
 
-// Base class
 import java.util.Scanner;
 
-// Base class
 class Animal {
     protected String name;
     protected int age;
